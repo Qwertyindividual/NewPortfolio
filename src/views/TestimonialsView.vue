@@ -1,21 +1,22 @@
 <template>
-  <div class="home">
-    <p>Home</p>
+  <div class="testimonials">
+    <p>Testimonials</p>
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {};
+</script>
 
 <style scoped>
-.home {
+.testimonials {
   display: flex;
   justify-content: center;
   align-items: content;
   height: 100%;
   width: 100%;
   font-size: 40px;
+  color: gray;
   font-weight: 600;
-  color: grey;
-  background: black;
 }
 </style>

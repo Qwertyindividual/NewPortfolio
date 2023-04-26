@@ -1,21 +1,23 @@
 <template>
-  <div class="home">
-    <p>Home</p>
+  <div class="contact">
+    <p>Contact</p>
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {};
+</script>
 
 <style scoped>
-.home {
+.contact {
   display: flex;
   justify-content: center;
   align-items: content;
   height: 100%;
   width: 100%;
   font-size: 40px;
+  color: gray;
   font-weight: 600;
-  color: grey;
-  background: black;
+  background-color: pink;
 }
 </style>
