@@ -1,6 +1,18 @@
 <template>
   <div class="about">
-    <p>About</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ratione sapiente molestias aut fugiat maxime iure dolorum esse alias ut, aspernatur facere itaque laudantium necessitatibus omnis fuga molestiae veritatis asperiores.
   </div>
 </template>
 

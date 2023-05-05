@@ -1,17 +1,19 @@
 <template>
   <div class="dashboard">
-    <SideBar />
+    <div class="sidebar">
+      <SideBar />
+    </div>
     <div class="content">
       <router-view v-slot="{ Component, route }">
         <transition
           :enter-active-class="route.meta.enterClass"
           :leave-active-class="route.meta.leaveClass"
-          :mode="'out-in'">
+          :mode="'out-in'"
+        >
           <component :is="Component" />
         </transition>
       </router-view>
     </div>
-    <div class="socials"></div>
   </div>
 </template>
 
@@ -21,7 +23,7 @@ import SideBar from "@/components/SideBar.vue";
 export default {
   name: "DashboardView",
   components: {
-    SideBar
+    SideBar,
   },
 };
 </script>
@@ -31,12 +33,12 @@ export default {
   display: grid;
   grid-template-columns: 0.3fr 5.5fr;
   height: 100vh;
-  width: 100vw;
-  z-index: 1;
+  width: 100%;
+  overflow: hidden;
 }
 
 .content {
-  z-index: -1;
+  overflow: auto;
 }
 
 .socials {

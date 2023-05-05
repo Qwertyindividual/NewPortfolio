@@ -1607,6 +1607,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin: 30px auto;
+  padding: fixed;
 }
 
 .menu-items > * {
@@ -1633,4 +1634,5 @@ svg {
 button {
   border: none;
 }
+
 </style>
