@@ -18,6 +18,6 @@ export default {};
   font-size: 40px;
   color: gray;
   font-weight: 600;
-  background-color: lightcoral;
+  background-color: wheat;
 }
 </style>

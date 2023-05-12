@@ -23,109 +23,21 @@
           </div>
         </div>
         <div class="col">
-          <!-- <div class="screen">
-            <div class="screen-image"></div>
-            <div class="screen-content">
+          <div class="box box1">
+            <div class="oddboxinner">
 
-
-            </div>
-          </div> -->
-          <!--Section: Contact v.2-->
-<section class="mb-4">
-
-<!--Section heading-->
-<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-<!--Section description-->
-<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-    a matter of hours to help you.</p>
-
-<div class="row">
-
-    <!--Grid column-->
-    <div class="col-md-9 mb-md-0 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-            <!--Grid row-->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <input type="text" id="name" name="name" class="form-control">
-                        <label for="name" class="">Your name</label>
-                    </div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <input type="text" id="email" name="email" class="form-control">
-                        <label for="email" class="">Your email</label>
-                    </div>
-                </div>
-                <!--Grid column-->
-
-            </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="md-form mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control">
-                        <label for="subject" class="">Subject</label>
-                    </div>
-                </div>
-            </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-12">
-
-                    <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        <label for="message">Your message</label>
-                    </div>
-
-                </div>
-            </div>
-            <!--Grid row-->
-
-        </form>
-
-        <div class="text-center text-md-left">
-            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-        </div>
-        <div class="status"></div>
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-md-3 text-center">
-        <ul class="list-unstyled mb-0">
-            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>San Francisco, CA 94126, USA</p>
-            </li>
-
-            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
-            </li>
-
-            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>contact@mdbootstrap.com</p>
-            </li>
-        </ul>
-    </div>
-    <!--Grid column-->
-
+              <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 
-</section>
-<!--Section: Contact v.2-->
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -229,112 +141,27 @@ section {
   height: 100px;
 }
 
-/* :root {
-  --background-rgb: 29 30 34;
-
-  --blue-rgb: 33 150 243;
-  --primary-rgb: var(--blue-rgb);
+.box{
+  width:75%;
+  height: 75vh;
+  background: transparent;
+  border: solid black;
+  border-color: black;
 }
 
-.screen {
-  width: 65%;
-  aspect-ratio: 1 / 1;
-  border-radius: 1rem;
-  overflow: hidden;
-  margin: 10% auto;
+.box1{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
 }
 
-@keyframes pan-overlay {
-  from {
-    background-position: 0% 0%;
-  }
-
-  to {
-    background-position: 0% -100%;
-  }
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
 }
 
-.screen-overlay {
-  background: linear-gradient(
-    rgb(var(--primary-rgb) / 0.15),
-    rgb(var(--primary-rgb) / 0.15) 3px,
-    transparent 3px,
-    transparent 9px
-  );
-  background-size: 100% 9px;
-  height: 100%;
-  width: 100%;
-  animation: pan-overlay 22s infinite linear;
+.form-control {
+  border-bottom: solid 1px black;
+  background: transparent;
 }
-
-@keyframes pan-image {
-  0% {
-    background-position: 36% 42%;
-    background-size: 200%;
-  }
-
-  20% {
-    background-position: 30% 35%;
-    background-size: 200%;
-  }
-
-  20.0001% {
-    background-position: 60% 85%;
-    background-size: 500%;
-  }
-
-  40% {
-    background-position: 49% 81%;
-    background-size: 500%;
-  }
-
-  40.0001% {
-    background-position: 80% 42%;
-    background-size: 300%;
-  }
-
-  60% {
-    background-position: 84% 33%;
-    background-size: 300%;
-  }
-
-  60.0001% {
-    background-position: 0% 0%;
-    background-size: 300%;
-  }
-
-  80% {
-    background-position: 15% 4%;
-    background-size: 300%;
-  }
-
-  80.0001% {
-    background-position: 80% 10%;
-    background-size: 300%;
-  }
-
-  100% {
-    background-position: 72% 14%;
-    background-size: 300%;
-  }
-}
-
-.screen > .screen-image {
-  background-image: url("https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
-  background-image: url("https://i.postimg.cc/8CxKJ6Tk/contact-page-background.jpg");
-  background-image: url("https://i.postimg.cc/Y07wFVtS/contact.jpg");
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  background-size: 300%;
-  background-position: 0% 0%;
-  filter: sepia(100%) hue-rotate(160deg);
-  opacity: 0.6;
-  animation: pan-image 15s linear infinite;
-}
-
-
-.info {
-  margin: 50% auto;
-} */
 </style>
